@@ -1,4 +1,4 @@
-AULTname: Deploy to S3 + CloudFront
+name: Deploy to S3 + CloudFront
 
 on:
   push:
