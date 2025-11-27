@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Luke Cassin - AWS Cloud Practitioner</title>
+  <meta name="description" content="AWS Certified Cloud Practitioner | Building real-world projects on AWS">
+
+  <!-- Favicons -->
+  <link rel="icon" href="data:;base64,iVBORw0KGgo="> <!-- placeholder -->
+
+  <!-- Print-friendly & responsive styles -->
+  <style>
+    :root { --accent: #FF9900; --dark: #232F3E; --light: #F8F9FA; }
+    body {
+      font-family: 'Segoe UI', Calibri, Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: white;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+    header {
+      background: var(--dark);
+      color: white;
+      padding: 3rem 0;
+      text-align: center;
+    }
+    h1 { margin: 0; font-size: 2.8rem; }
+    h2 {
+      color: var(--accent);
+      border-bottom: 3px solid var(--accent);
+      padding-bottom: 0.4rem;
+      margin-top: 2rem;
+      font-size: 1.5rem;
+    }
+    .contact { margin: 1rem 0; font-size: 1.1rem; }
+    .contact a { color: white; text-decoration: none; }
+    .contact a:hover { text-decoration: underline; }
+    section { margin-bottom: 2rem; }
+    ul { padding-left: 1.2rem; }
+    li { margin-bottom: 0.7rem; }
+    .badge {
+      display: inline-block;
+      background: var(--accent);
+      color: white;
+      padding: 0.3rem 0.7rem;
+      border-radius: 4px;
+      font-size: 0.85rem;
+      font-weight: bold;
+      margin-right: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    @media print {
+      body { font-size: 11pt; }
+      .no-print { display: none; }
+      a { color: #000; text-decoration: none; }
+    }
+    @media (max-width: 640px) {
+      h1 { font-size: 2.2rem; }
+      .container { padding: 1rem; }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1>Luke Cassin</h1>
+      <p style="font-size:1.3rem;opacity:0.9;margin:0.5rem 0;">AWS Certified Cloud Practitioner</p>
+      
+      <div class="contact">
+        <a href="mailto:mrlcassin@gmail.com">mrlcassin@gmail.com</a> | 
+        <a href="tel:+447818415532">+44 07818 415532</a> |
+         
+        <a href="https://github.com/LukeCassin" target="_blank">github.com/LukeCassin</a><br>
+        West Midlands, UK (or Remote)
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <!-- Summary -->
+    <section>
+      <h2>About</h2>
+      <p>
+        Recently certified <strong>AWS Certified Cloud Practitioner (2025)</strong> with hands-on experience building and deploying real-world applications on AWS. 
+        Passionate about cloud infrastructure, serverless architecture, and DevOps practices. 
+        Quickly learning and contributing to production AWS environments.
+      </p>
+    </section>
+
+    <!-- AWS Skills -->
+    <section>
+      <h2>Core AWS Skills</h2>
+      <div class="skills-grid">
+        <div><span class="badge">S3</span><span class="badge">CloudFront</span></div>
+        <div><span class="badge">Lambda</span><span class="badge">API Gateway</span></div>
+        <div><span class="badge">DynamoDB</span><span class="badge">IAM</span></div>
+        <div><span class="badge">CloudFormation</span><span class="badge">EC2</span></div>
+        <div><span class="badge">Route 53</span><span class="badge">CloudWatch</span></div>
+      </div>
+    </section>
+
+    <!-- Projects (this is what recruiters care about most) -->
+    <section>
+      <h2>Real-World AWS Projects</h2>
+      
+      <ul>
+        <li><strong>Hosting Static Website on S3</strong> | Hosting a Static Website on AWS Using S3, CloudFront with DNS Configuration</li>
+
+      </ul>
+    </section>
+
+    <!-- Certifications -->
+    <section>
+      <h2>Certifications</h2>
+      <ul>
+        <li><strong>AWS Certified Cloud Practitioner</strong> | Earned November 2025</li>
+        <li><em>Currently studying for AWS Certified Solutions Architect Associate</em></li>
+      </ul>
+    </section>
+
+</div>
+</body>
+</html>
